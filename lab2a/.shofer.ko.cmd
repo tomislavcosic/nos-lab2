@@ -1,0 +1,1 @@
+cmd_/home/tomislav/nos-lab2/lab2a/shofer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/tomislav/nos-lab2/lab2a/shofer.ko /home/tomislav/nos-lab2/lab2a/shofer.o /home/tomislav/nos-lab2/lab2a/shofer.mod.o;  true
